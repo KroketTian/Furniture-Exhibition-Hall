@@ -1,0 +1,45 @@
+{
+    "name": "furniture-exhibition-hall",
+    "version": "1.0.0",
+    "description": "用three.js做个网上家具展厅",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node_modules/.bin/webpack-dev-server --mode=development --ctype=webpackDevServer --hot --open",
+        "dev": "node_modules/.bin/webpack --mode=development",
+        "build": "node_modules/.bin/webpack --mode=production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fashandian/Furniture-Exhibition-Hall.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fashandian/Furniture-Exhibition-Hall/issues"
+    },
+    "homepage": "https://github.com/fashandian/Furniture-Exhibition-Hall#readme",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "clean-webpack-plugin": "^1.0.0",
+        "css-loader": "^1.0.1",
+        "file-loader": "^2.0.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "image-webpack-loader": "^4.5.0",
+        "mini-css-extract-plugin": "^0.4.5",
+        "react-hot-loader": "^4.3.12",
+        "sass-loader": "^7.1.0",
+        "style-loader": "^0.23.1",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.26.1",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    },
+    "dependencies": {
+        "react": "^16.6.3",
+        "react-dom": "^16.6.3"
+    }
+}
